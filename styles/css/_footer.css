@@ -1,0 +1,148 @@
+footer {
+  font-family: 'Muli', sans-serif; }
+  footer section {
+    position: relative;
+    display: block;
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto; }
+  footer #contact_us {
+    background-image: url("../../documents/img/Contact Us/map.png");
+    background-repeat: no-repeat;
+    height: 759px;
+    color: white;
+    padding-top: 53px; }
+    footer #contact_us .point {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: black;
+      border-radius: 50%;
+      border: 1px solid #ffc600; }
+    footer #contact_us .right {
+      display: inline-block;
+      vertical-align: top; }
+      footer #contact_us .right h1 {
+        font-size: 24px;
+        font-weight: 700; }
+        footer #contact_us .right h1 span {
+          font-size: 44px; }
+      footer #contact_us .right hr {
+        position: relative;
+        width: 160px;
+        top: 0px;
+        left: 10px;
+        border: 1px solid #c5c5c5; }
+      footer #contact_us .right form {
+        margin-top: 18px;
+        width: 413px; }
+        footer #contact_us .right form input::-moz-placeholder {
+          color: white; }
+        footer #contact_us .right form input::-webkit-input-placeholder {
+          color: white; }
+        footer #contact_us .right form input {
+          display: inline-block;
+          color: white;
+          background-color: rgba(255, 255, 255, 0);
+          border: 2px solid #c5c5c5;
+          padding: 5px 10px;
+          margin-bottom: 15px; }
+        footer #contact_us .right form:not(.email) {
+          margin-right: 50px; }
+        footer #contact_us .right form .name {
+          width: 100%; }
+        footer #contact_us .right form .mob, footer #contact_us .right form .email {
+          width: 179px;
+          vertical-align: top; }
+        footer #contact_us .right form .email {
+          margin-left: 47px; }
+        footer #contact_us .right form .mess {
+          height: 80px;
+          padding-bottom: 50px;
+          display: block;
+          width: 100%; }
+        footer #contact_us .right form .subm {
+          border: none;
+          background-color: #ffc600;
+          padding: 8px 32px;
+          color: black;
+          font-weight: 600;
+          font-size: 15px;
+          text-transform: uppercase;
+          cursor: pointer; }
+      footer #contact_us .right h3 {
+        margin-top: 40px;
+        margin-bottom: 25px;
+        font-style: 17pt; }
+      footer #contact_us .right h4 {
+        display: inline-block;
+        font-size: 12pt; }
+      footer #contact_us .right h4.ph {
+        margin-top: 20px; }
+      footer #contact_us .right h4.em {
+        margin-top: 15px; }
+      footer #contact_us .right p {
+        display: inline-block;
+        font-size: 8pt; }
+      footer #contact_us .right p.add {
+        margin-left: 40px; }
+      footer #contact_us .right p.ph {
+        margin-left: 53px; }
+      footer #contact_us .right p.em {
+        margin-left: 60px; }
+      footer #contact_us .right .last {
+        margin-top: 60px;
+        left: 0;
+        width: 412px;
+        top: 0;
+        border: 1px solid #7386bc; }
+      footer #contact_us .right button {
+        margin-top: 8px;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0);
+        margin-right: 3px;
+        cursor: pointer; }
+  footer #footer {
+    background-image: url("../../documents/img/Footer/Background.png");
+    background-repeat: no-repeat;
+    height: 660px; }
+    footer #footer .left {
+      display: inline-block;
+      padding-left: 40px;
+      padding-top: 110px;
+      width: 29%; }
+      footer #footer .left h1 {
+        font-size: 40px;
+        font-weight: 900;
+        color: white; }
+      footer #footer .left .menu {
+        display: block;
+        margin-top: 50px; }
+        footer #footer .left .menu a {
+          display: block;
+          margin-bottom: 15px;
+          font-size: 15px;
+          font-weight: 400;
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase; }
+          footer #footer .left .menu a:hover {
+            color: #ffc600; }
+      footer #footer .left hr {
+        width: 160px;
+        border: 1px solid #ffc600;
+        margin-top: 50px; }
+      footer #footer .left button {
+        margin-top: 15px;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0);
+        margin-left: 3px;
+        cursor: pointer; }
+    footer #footer .right {
+      display: inline-block;
+      vertical-align: top; }
+      footer #footer .right h1 {
+        font-weight: 900;
+        font-size: 80px;
+        color: white;
+        margin-top: 45%; }

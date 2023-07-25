@@ -1,0 +1,244 @@
+footer {
+	font-family: 'Muli', sans-serif;
+
+	section {
+		position: relative;
+		display: block;
+		width: 1198px;
+		background-color: white;
+		margin: 0 auto;
+	}
+
+	#contact_us {
+		background-image: url("../../documents/img/Contact Us/map.png");
+		background-repeat: no-repeat;
+		height: 684px + 75px;
+		color: white;
+		padding-top: 53px;
+		.left {
+			display: inline-block;
+			width: 44%;
+			.point {
+				padding-top: 20px;
+				padding-left: 4px;
+				margin-left: 44.5%;
+				margin-top: 50%;
+
+				width: 60px;
+				height: 60px;
+				background-color: black;
+				border-radius: 50%;
+				border: 1px solid #ffc600;
+
+				p {
+					font-weight: 800;
+					font-size: 13px;
+				}
+			}
+		}
+
+		.right {
+			display: inline-block;
+			vertical-align: top;
+
+			h1 {
+				font-size: 24px;
+				font-weight: 700;
+
+				span {
+					font-size: 44px;
+				}
+			}
+
+			hr {
+				position: relative;
+				width: 160px;
+				top: 0px;
+				left: 10px;
+				border: 1px solid #c5c5c5;
+			}
+
+			form {
+				margin-top: 18px;
+				width: 413px;
+
+				input::-moz-placeholder { color: white; }
+				input::-webkit-input-placeholder { color: white; }
+
+				input {
+					display: inline-block;
+					color: white;
+					background-color: rgba(255, 255, 255, .0);
+					border: 2px solid #c5c5c5;
+					padding: 5px 10px;
+					margin-bottom: 15px;
+				}
+				&:not(.email) {
+					margin-right: 50px;
+				}
+				
+
+				.name {
+					width: 100%;
+				}
+
+				.mob, .email {
+					width: 179px;
+					vertical-align: top;
+				}
+				.email {
+					margin-left: 47px;
+				}
+
+				.mess {
+					height: 80px;
+					padding-bottom: 50px;
+					display: block;
+					width: 100%;
+				}
+
+				.subm {
+					border: none;
+					background-color: #ffc600;
+					padding: 8px 32px;
+					color: black;
+					font-weight: 600;
+					font-size: 15px;
+					text-transform: uppercase;
+					cursor: pointer;
+				}
+			}
+
+			h3 {
+				margin-top: 40px;
+				margin-bottom: 25px;
+				font-style: 17pt;
+			}
+
+			h4 {
+				display: inline-block;
+				font-size: 12pt;
+			}
+
+			h4.add {
+
+			}
+
+			h4.ph {
+				margin-top: 20px;
+			}
+
+			h4.em {
+				margin-top: 15px;
+			}
+
+			p {
+				display: inline-block;
+				font-size: 8pt;
+			}
+
+			p.add {
+				margin-left: 40px;
+			}
+
+			p.ph {
+				margin-left: 40px + 13px;
+			}
+
+			p.em {
+				margin-left: 40px + 20px;
+			}
+
+			.last {
+				margin-top: 60px;
+				left: 0;
+				width: 412px;
+				top: 0;
+				border: 1px solid #7386bc;
+			}
+
+			button {
+				margin-top: 8px;
+				display: inline-block;
+				background-color: rgba(255, 255, 255, .0);
+				margin-right: 3px;
+				cursor: pointer;
+				img {
+
+				}
+			}
+		}	
+	}
+
+	#footer {
+		background-image: url("../../documents/img/Footer/Background.png");
+		background-repeat: no-repeat;
+		height: 660px;
+
+		.left {
+			display: inline-block;
+			padding-left: 40px;
+			padding-top: 110px;
+			width: 29%;
+
+			h1 {
+				font-size: 40px;
+				font-weight: 900;
+				color: white;
+
+				span {
+					
+				}
+			}
+
+			.menu {
+				display: block;
+				margin-top: 50px;
+
+				a {
+					display: block;
+					margin-bottom: 15px;
+					font-size: 15px;
+					font-weight: 400;
+					text-decoration: none;
+					color: white;
+					text-transform: uppercase;
+
+					&:hover {
+						color: #ffc600
+					}
+				}
+			}
+
+			hr {
+				width: 160px;
+				border: 1px solid #ffc600;
+				margin-top: 50px;
+			}
+
+			button {
+				margin-top: 15px;
+				display: inline-block;
+				background-color: rgba(255, 255, 255, .0);
+				margin-left: 3px;
+				cursor: pointer;
+
+				img {
+
+				}
+			}
+		}
+		
+		.right {
+			display: inline-block;
+			vertical-align: top;
+
+			h1 {
+				font-weight: 900;
+				font-size: 80px;
+				color: white;
+				margin-top: 45%;
+			}
+		}
+	}
+}
